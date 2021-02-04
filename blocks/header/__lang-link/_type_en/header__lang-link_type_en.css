@@ -1,12 +1,12 @@
-.header__lang-link_ru {
-    width: 30px;
+.header__lang-link_type_en {
+    width: 29px;
     height: 100%;
-    margin-right: 18px;
+    text-decoration: none;
     color: white;
 }
 
 @media screen and (max-width: 320px) {
-    .header__lang-link_ru {
+    .header__lang-link_type_en {
         width: 22px;
         height: 20px;
     }
