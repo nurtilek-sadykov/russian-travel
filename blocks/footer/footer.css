@@ -16,12 +16,12 @@
 @media screen and (max-width: 320px) {
     .footer {
         width: 186px;
-        height: 310px;
+        min-height: 310px;
         font-size: 24px;
         line-height: 24px;
         flex-direction: column;
         margin-left: 16px;
-        margin-top: 97px;
+        margin-top: 64px;
     }
 }
 

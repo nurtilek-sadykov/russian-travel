@@ -18,5 +18,6 @@
         min-width: calc(100%*1184/1280);
         max-width: calc(100%*1184/1280);
         margin: auto;
+	    margin-top: 92px;
     }
 }
