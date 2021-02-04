@@ -1,8 +1,9 @@
 .header {
     max-width: calc(100%*928/1024);
-    min-height: 52px;
+    max-height: 52px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     margin: auto;
     padding-top: 28px;
