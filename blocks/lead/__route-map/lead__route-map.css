@@ -3,5 +3,6 @@
     max-height: 258px;
     position: absolute;
     margin: auto;
-    top: 90.2px;
-    left: 23.2px;
+    top: calc(100%*90.2/615);
+    left: calc(100%*23.2/984);
+}
