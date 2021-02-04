@@ -1,0 +1,23 @@
+.place__article {
+    max-width: 456px;
+    font-size: 18px;
+    line-height: 163%;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .place__article {
+        width: 288px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__article {
+        min-width: calc(100%*352/768);
+        font-size: 16px;
+    }
+}

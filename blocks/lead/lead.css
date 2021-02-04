@@ -1,0 +1,23 @@
+.lead {
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 48px;
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .lead {
+        min-width: calc(100%*984/1184);
+        max-width: calc(100%*984/1184);
+        margin-top: 56px;
+    }
+}

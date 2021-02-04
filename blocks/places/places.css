@@ -1,0 +1,19 @@
+.places {
+    min-width: 100%;
+    max-width: 100%;
+    max-height: min-content;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 80px;
+    margin: auto;
+    margin-top: 92px;
+}
+
+@media screen and (min-width: 1025px) {
+    .places {
+        min-width: calc(100%*984/1184);
+        max-width: calc(100%*984/1184);
+        margin: auto;
+    }
+}

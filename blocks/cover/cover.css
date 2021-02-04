@@ -1,0 +1,22 @@
+.cover{
+    margin-top: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        margin-top: 34px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .cover {
+        min-width: calc(100%*1184/1280);
+        max-width: calc(100%*1184/1280);
+        margin: auto;
+    }
+}

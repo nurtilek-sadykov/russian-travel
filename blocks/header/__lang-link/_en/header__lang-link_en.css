@@ -1,0 +1,13 @@
+.header__lang-link_en {
+    width: 29px;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link_en {
+        width: 22px;
+        height: 20px;
+    }
+}

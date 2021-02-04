@@ -1,0 +1,25 @@
+.content {
+    max-width: calc(100%*928/1024);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+}
+
+@media screen and (max-width: 320px) {
+    .content {
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    .content {
+        max-width: calc(100%*1184/1280);
+    }
+}
