@@ -9,7 +9,7 @@
     grid-template-areas: 
     "place__title place__website"
     "place__photo place__article"
-    "place__photo place__article"
+    "place__photo place__article";
 }
 
 @media screen and (max-width: 320px) {
@@ -21,7 +21,7 @@
         "place__website"
         "place__photo"
         "place__article"
-        "place__article"
+        "place__article";
     }
 }
 

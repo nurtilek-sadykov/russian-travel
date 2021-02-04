@@ -6,11 +6,10 @@
     font-weight: 900;
     font-style: normal;
     text-align: center;
-    margin: 0;
     position: absolute;
     top: calc(100%*245/740);
     color: white;
-    margin: auto;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 320px) {
