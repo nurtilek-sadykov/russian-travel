@@ -1,6 +1,6 @@
 # Проект 3: Путешествие по России
 
-[URL:](https://nurtilek-sadykov.github.io/russian-travel/)
+URL:[https://nurtilek-sadykov.github.io/russian-travel/](https://nurtilek-sadykov.github.io/russian-travel/)
 
 ### Обзор
 * Интро
