@@ -1,12 +1,6 @@
 .cover__overlay {
-    min-width: 100%;
-    max-width: 100%;
+    width: 100%;
     padding-bottom: calc(100%*640/1024);
     background: url(../../../images/cover-trains.jpg) no-repeat;
     background-size: cover;
-    opacity: .8;
-}
-
-.cover__overlay:hover {
-    opacity: .3;
 }

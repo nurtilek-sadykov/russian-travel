@@ -13,10 +13,10 @@
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .intro {
-        min-width: calc(100%*720/768);
+        max-width: calc(100%*720/768);
         margin: auto;
-        margin-top: 92px;
-        margin-bottom: 92px;
+        margin-top: 88px;
+        margin-bottom: 88px;
     }
 }
 

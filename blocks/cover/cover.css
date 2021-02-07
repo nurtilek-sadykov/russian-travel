@@ -1,10 +1,11 @@
 .cover{
     margin-top: 92px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     position: relative;
+    opacity: .8;
+}
+
+.cover:hover {
+    opacity: .3;
 }
 
 @media screen and (max-width: 320px) {

@@ -10,14 +10,16 @@
 
 @media screen and (max-width: 320px) {
     .place__article {
-        width: 288px;
+        width: calc(100%*288/320);
+	    max-width: 288px;
         margin: auto;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 321px) and (max-width: 768px) {
     .place__article {
-        min-width: calc(100%*352/768);
+        width: 100%;
+        max-width: 352px;
         font-size: 16px;
     }
 }

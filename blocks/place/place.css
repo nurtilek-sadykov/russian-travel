@@ -1,9 +1,7 @@
 .place {
-    min-width: 100%;
     max-width: 100%;
     display: grid;
     grid-template-columns: calc(100%*440/928) calc(100%*456/928);
-    grid-template-rows: repeat(auto-fit, min-content);
     margin: 0 auto;
     column-gap: 28px;
     grid-template-areas: 
@@ -14,6 +12,7 @@
 
 @media screen and (max-width: 320px) {
     .place {
+        width: 100%;
         grid-template-columns: 1fr;
         gap: 32px;
         grid-template-areas: 
@@ -27,8 +26,17 @@
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .place {
-        min-width: calc(100%*720/768);
-        grid-template-columns: 340px 352px;
+        width: calc(100%*720/768);
+        max-width: 720px;
+        grid-template-columns: calc(100%*340/720) calc(100%352/720);
         justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .place {
+        width: 100%;
+        max-width: 984px;
+        margin: 0 auto;
     }
 }

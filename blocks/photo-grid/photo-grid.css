@@ -1,5 +1,4 @@
 .photo-grid {
-    /*min-width: 100%;*/
     max-width: 100%;
     display: grid;
     grid-template-columns: repeat(3, calc(100%*300/928));
@@ -18,6 +17,7 @@
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .photo-grid {
         grid-template-columns: repeat(2, calc(100%*352/768));
+        grid-template-rows: repeat(auto-fit, calc(100%*264/1664));
         gap: 16px;
     }
 }
