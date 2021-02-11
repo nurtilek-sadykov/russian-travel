@@ -22,6 +22,6 @@
     .lead__subtitle {
         width: calc(100%*720/768);
         font-size: calc(100vw*30/768);
-        line-height: calc(100vw*36/768);;
+        line-height: calc(100vw*36/768);
     }
 }

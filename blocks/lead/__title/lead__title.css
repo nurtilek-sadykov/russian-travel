@@ -21,6 +21,6 @@
     .lead__title {
         width: calc(100%*720/768);
         font-size: calc(100vw*96/768);
-        line-height: calc(100vw*100/768);;
+        line-height: calc(100vw*100/768);
     }
 }
