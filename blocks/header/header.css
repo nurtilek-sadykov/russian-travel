@@ -1,15 +1,19 @@
 .header {
     max-width: calc(100%*928/1024);
-    max-height: 52px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    padding-top: 28px;
 }
 
 @media screen and (max-width: 320px) {
+    .header {
+        width: calc(100%*288/320);
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 425px) {
     .header {
         width: calc(100%*288/320);
     }

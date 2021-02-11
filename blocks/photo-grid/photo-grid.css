@@ -7,14 +7,15 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .photo-grid {
         grid-template-columns: calc(100%*288/320);
+        grid-template-rows: repeat(auto-fit, calc(100%*216/2724));
         gap: 12px;
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
     .photo-grid {
         grid-template-columns: repeat(2, calc(100%*352/768));
         grid-template-rows: repeat(auto-fit, calc(100%*264/1664));

@@ -1,7 +1,6 @@
 .lead__title {
     width: calc(100%*720/928);
     max-width: 720px;
-    width: (100%);
     font-size: 6rem;
     line-height: 6.25rem;
     font-weight: 900;
@@ -10,7 +9,7 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .lead__title {
         min-width: 288px;
         font-size: 40px;
@@ -18,8 +17,10 @@
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
     .lead__title {
         width: calc(100%*720/768);
+        font-size: calc(100vw*96/768);
+        line-height: calc(100vw*100/768);;
     }
 }

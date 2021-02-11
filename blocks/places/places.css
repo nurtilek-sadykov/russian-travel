@@ -8,6 +8,13 @@
     margin-top: 92px;
 }
 
+@media screen and (max-width: 425px) {
+    .places {
+        row-gap: 50px;
+        margin-top: 64px;
+    }
+}
+
 @media screen and (min-width: 1025px) {
     .places {
         max-width: 984px;

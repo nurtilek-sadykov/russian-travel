@@ -3,15 +3,16 @@
     margin-bottom: 92px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .intro {
-        width: 320px;
+        width: calc(100%*288/320);
+        margin: auto;
         margin-top: 64px;
         margin-bottom: 64px;
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
     .intro {
         max-width: calc(100%*720/768);
         margin: auto;

@@ -10,7 +10,7 @@
     "place__photo place__article";
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .place {
         width: 100%;
         grid-template-columns: 1fr;
@@ -24,11 +24,11 @@
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
     .place {
         width: calc(100%*720/768);
         max-width: 720px;
-        grid-template-columns: calc(100%*340/720) calc(100%352/720);
+        grid-template-columns: calc(100%*340/720) calc(100%*352/720);
         justify-content: center;
     }
 }

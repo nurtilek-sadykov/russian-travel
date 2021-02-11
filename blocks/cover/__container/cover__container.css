@@ -6,11 +6,6 @@
     align-items: center;
     margin: auto;
     position: absolute;
-    top: calc(100%*245/740);
-}
-
-@media screen and (max-width: 320px) {
-    .cover__container {
-        top: calc(100%*33/200);
-    }
+    top: 0;
+    bottom: 0;
 }

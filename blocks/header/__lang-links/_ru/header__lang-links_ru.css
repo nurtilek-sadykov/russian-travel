@@ -1,6 +1,5 @@
 .header__lang-links_ru {
     width: 30px;
-    height: 100%;
     margin-right: 18px;
     color: white;
 }
@@ -8,6 +7,5 @@
 @media screen and (max-width: 320px) {
     .header__lang-links_ru {
         width: 22px;
-        height: 20px;
     }
 }
