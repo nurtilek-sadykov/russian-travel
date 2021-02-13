@@ -1,5 +1,5 @@
 .lead__title {
-    width: calc(100%*720/928);
+    min-width: calc(100%*720/928);
     max-width: 720px;
     font-size: 6rem;
     line-height: 6.25rem;

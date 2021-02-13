@@ -6,11 +6,13 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    display: inline;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .intro__list {
-        width: 288px;
+        width: calc(100%*288/320);
+        max-width: 288px;
         margin: auto;
     }
 }

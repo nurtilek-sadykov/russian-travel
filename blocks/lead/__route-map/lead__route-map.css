@@ -1,8 +1,0 @@
-.lead__route-map {
-    width: calc(100%*937/984);
-    max-height: 258px;
-    position: absolute;
-    margin: auto;
-    top: calc(100%*90.2/615);
-    left: calc(100%*23.2/984);
-}

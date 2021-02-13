@@ -1,10 +1,8 @@
 .header__lang-links_ru {
-    width: 30px;
-    margin-right: 18px;
-    color: white;
+    text-decoration: underline;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .header__lang-links_ru {
         width: 22px;
     }

@@ -35,6 +35,7 @@
 
 @media screen and (min-width: 1025px){
     .footer {
-        max-width: calc(100%*1184/1280);
+        width: calc(100%*1184/1280);
+        max-width: 1184px;
     }
 }

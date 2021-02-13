@@ -1,23 +1,30 @@
-.cover{
+.cover {
+    width: 100%;
+    max-width: 1024px;
+    min-height: calc(100vw*640/1024);
     margin-top: 92px;
-    position: relative;
-    opacity: .8;
-}
-
-.cover:hover {
-    opacity: .3;
 }
 
 @media screen and (max-width: 425px) {
     .cover {
         margin-top: 34px;
+        min-height: 200px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .cover {
+        width: 100%;
+        min-height: 480px;
+        margin-top: 90px;
     }
 }
 
 @media screen and (min-width: 1025px) {
     .cover {
-        min-width: calc(100%*1184/1280);
-        max-width: calc(100%*1184/1280);
+        width: calc(100%*1184/1280);
+        max-width: 1184px;
+        min-height: 740px;
         margin: auto;
 	    margin-top: 92px;
     }
