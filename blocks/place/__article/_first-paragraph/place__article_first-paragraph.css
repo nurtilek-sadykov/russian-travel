@@ -1,0 +1,4 @@
+.place__article_first-paragraph {
+    margin-bottom: 25px;
+    grid-area: place__article;
+}

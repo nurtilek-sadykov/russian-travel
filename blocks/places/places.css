@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fit, 1fr);
-    row-gap: 80px;
+    row-gap: 73px;
     margin: auto;
     margin-top: 92px;
 }
@@ -15,11 +15,18 @@
     }
 }
 
+@media screen and (min-width: 426px) and (max-width: 768px){
+    .places {
+        margin-top: 88px;
+    }
+}
+
 @media screen and (min-width: 1025px) {
     .places {
         max-width: 984px;
         width: calc(100%*984/1184);
         margin: auto;
         margin-top: 92px;
+        row-gap: 80px;
     }
 }

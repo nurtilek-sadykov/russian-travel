@@ -14,15 +14,17 @@
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
     .intro {
-        max-width: calc(100%*720/768);
+        width: calc(100%*720/768);
         margin: auto;
         margin-top: 88px;
         margin-bottom: 88px;
+        margin-left: 24px;
     }
 }
 
 @media screen and (min-width: 1025px){
     .intro {
         margin-left: calc(100%*100/1184);
+        margin-top: 114px;
     }
 }

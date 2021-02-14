@@ -15,6 +15,6 @@
 
 @media screen and  (min-width: 426px) and (max-width: 768px) {
     .footer__link-container {
-        width: calc(100%*465/768);
+        width: calc(100%*495/768);
     }
 }

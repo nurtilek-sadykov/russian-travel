@@ -13,3 +13,9 @@
         margin-bottom: 0;
     }
 }
+
+@media screen and (min-width: 1025px) {
+    .place__website {
+        margin-bottom: 46px;
+    }
+}
