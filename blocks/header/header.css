@@ -5,15 +5,16 @@
     align-items: flex-end;
     justify-content: space-between;
     margin: auto;
+    margin-top: 28px;
 }
 
 @media screen and (max-width: 320px) {
     .header {
-        width: calc(100%*288/320);
+        margin-top: 16px;
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .header {
         width: calc(100%*288/320);
     }
