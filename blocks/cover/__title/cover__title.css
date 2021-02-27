@@ -30,12 +30,6 @@
 @media screen and (min-width: 601px) and (max-width: 768px) {
     .cover__title {
         width: calc(100%*560/768);
-        font-size: 72px;
-    }
-}
-
-@media screen and (min-width: 1025px) {
-    .cover__title {
-        font-size: 72px;
+        font-size: 9.375vw;
     }
 }

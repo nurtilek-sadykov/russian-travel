@@ -3,17 +3,17 @@
     display: grid;
     grid-template-columns: calc(100%*440/928) calc(100%*456/928);
     margin: 0 auto;
-    column-gap: 28px;
+    column-gap: 31px;
     grid-template-areas: 
     "place__title place__website"
     "place__photo place__article";
-font-size: 16px;
+    font-size: 16px;
 }
 
 @media screen and (max-width: 425px) {
     .place {
         grid-template-columns: 1fr;
-        gap: 33px;
+        gap: 32px;
         grid-template-areas: 
         "place__title"
         "place__website"
@@ -37,7 +37,6 @@ font-size: 16px;
         width: 100%;
         grid-template-columns: calc(100%*460/984) calc(100%*484/984);
         max-width: 984px;
-        margin: 0 auto;
         column-gap: 40px;
         row-gap: 0;
     }

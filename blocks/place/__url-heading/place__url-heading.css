@@ -7,10 +7,5 @@
     color: #AAAAAA;
     margin: 0;
     margin-bottom: 12px;
-}
-
-@media screen and (max-width: 425px) {
-    .place__url-heading {
-        line-height: 11px;
-    }
+    text-transform: uppercase;
 }

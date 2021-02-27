@@ -6,6 +6,7 @@
     font-style: normal;
     text-align: left;
     margin: 0;
+    margin-bottom: 25px;
     display: flex;
     flex-direction: column;
     grid-area: place__article;
@@ -15,7 +16,9 @@
     .place__article {
         width: calc(100%*288/320);
         margin: 0 auto;
-        font-size: 4vw;
+        margin-bottom: 25px;
+        font-size: 5vw;
+        height: auto;
     }
 }
 
@@ -31,11 +34,5 @@
     .place__article {
         max-width: 484px;
         font-size: 1.4062vw;
-    }
-}
-
-@media screen and (min-width: 1281px) {
-    .place__article{
-        font-size: 18px;
     }
 }

@@ -8,7 +8,7 @@
         width: calc(100%*288/320);
         margin: auto;
         margin-top: 64px;
-        margin-bottom: 64px;
+        margin-bottom: 52px;
     }
 }
 
@@ -25,6 +25,6 @@
 @media screen and (min-width: 1025px){
     .intro {
         margin-left: calc(100%*100/1184);
-        margin-top: 114px;
+        margin-top: 90px;
     }
 }
